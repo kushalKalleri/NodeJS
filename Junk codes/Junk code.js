@@ -46,7 +46,7 @@ app.get("/GetCustomer_list", (req, res) => {
 });
 
 app.get('/', function(req, res) {
-    res.send('Hello Sir')
+    res.send('Hello bro')
 })
 
 // app.get("/Customer", (req, res) => {
@@ -72,7 +72,6 @@ app.get('/', function(req, res) {
 //     res.send("Post updated...");
 //   });
 // });
-
 
 // // Delete customer
 // app.get("/deletecustomer/:id", (req, res) => {
