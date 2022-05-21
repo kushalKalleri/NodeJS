@@ -28,7 +28,7 @@ var app = express();
 let db      = mysql.createConnection({
   host : 'localhost',
   user : 'kushal',
-  password : '80skd!86rdp7760',
+  password : '',
   database: "customer"
 });
 
